@@ -1,0 +1,31 @@
+.onibus {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  min-height: 500px;
+  width: 500px;
+  background-color: rgb(39, 165, 255);
+  color: white;
+  margin-inline: auto;
+  margin-top: 20px;
+  border: 1px solid black;
+  align-content: start;
+  gap: 5px;
+}
+.onibus div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+  height: 50px;
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  align-items: start;
+}
